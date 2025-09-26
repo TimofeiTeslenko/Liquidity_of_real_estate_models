@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+.venv/
+venv/
+ENV/
+.env
+*.env
+
+# PyCharm/IDE
+.idea/
+
+# Playwright
+**/playwright/.cache/
+**/playwright-report/
+**/test-results/
+
+# Dumps и временные артефакты
+cian_dumps/
+*.log
+
+# Excel/выходные файлы (чтобы не утащить персональные данные)
+*.xlsx
+*.xls
+*результат*.xlsx
+*_partial*.xlsx
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+cian_profile/
