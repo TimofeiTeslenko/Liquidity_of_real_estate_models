@@ -23,7 +23,9 @@
 - Keep comments concise and explain intent or methodological reasoning rather than restating obvious syntax.
 - Preserve the existing language of comments and documentation unless asked to change it.
 
-## Validation
+## Validation and review
 - Before proposing changes, run the relevant code or tests when possible.
 - If required data or dependencies are unavailable, state clearly what was not tested.
 - Do not claim that results were reproduced unless they were actually reproduced.
+- When reviewing code, explicitly check for logical inconsistencies, incorrect variable definitions, reversed event/censoring indicators, data leakage, incorrect merges, unit mismatches, and discrepancies between variable documentation and implementation.
+- Flag suspected methodological or interpretation problems for the repository owner instead of silently changing the research design.
